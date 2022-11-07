@@ -16,6 +16,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { SocialComponent } from './componets/social/social.component';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
+import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +34,11 @@ import { SocialComponent } from './componets/social/social.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    SocialComponent
+    SocialComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +47,8 @@ import { SocialComponent } from './componets/social/social.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule
+
+
 
         ],
   providers: [],
