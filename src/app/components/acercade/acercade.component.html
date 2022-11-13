@@ -1,7 +1,13 @@
 <div class="row">
+
+    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged" >
+     Editar Persona
+    </button>
+
+
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/imagenes/img.jpg" alt="" class="img-fluid" id="fotoperfil">
- 
+        <img src={{persona.img}} alt="" class="img-fluid" id="fotoperfil">
+
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
@@ -10,10 +16,8 @@
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-8">
         <span>
             <h1>Acerca de mi</h1>
-            <h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste soluta officia aliquid esse magni amet illo sunt fugiat vero libero quibusdam fugit, aliquam similique necessitatibus at repellendus perspiciatis ullam.
-            </h2>
-            
+            <p>{{persona.descripcion}}</p>
+
         </span>
     </div>
 

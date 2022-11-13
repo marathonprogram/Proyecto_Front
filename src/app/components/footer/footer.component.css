@@ -1,7 +1,10 @@
 .row{
-    background-color: rgb(0, 225, 255);
+    background-color: rgba(200, 237, 241, 0.932);
 }
 footer{
-    color: rgb(220, 215, 250);
-    font-size: 14px;
+    color: #05021421;
+    font-size: 24px;
+    font-weight: 300;
+    font-weight: bold;
+
 }
