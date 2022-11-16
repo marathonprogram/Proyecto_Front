@@ -21,13 +21,9 @@
               <div class="form-group">
                 <label for="img">Imagen</label>
                 <input type="file" class="form-control" id="img" name="img" [(ngModel)]="persona.img" (change)="uploadImage($event)"
-                  accept=".Jpg, .jpeg, .png">
+                  accept=".jpg, .jpeg, .png">
                 </div>
-                <div>
-                  <div class = "imagen">
-                    <img [src]="" alt="">
-                  </div>
-                </div>
+
                 <br>
           <button class="btn btn-primary">
             Editar persona

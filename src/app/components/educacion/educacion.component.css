@@ -3,8 +3,23 @@
 
 }
 div{
-    background-color: antiquewhite;
+
+
+      background-color: rgb(221, 223, 236);
+
+
 }
 h1,h3{
     display: inline;
+}
+#edu{
+  font-weight: bold;
+    font-size: 28px;
+}
+
+
+
+#desc{
+  font-weight: bold;
+    font-size: 18px;
 }

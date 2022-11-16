@@ -1,10 +1,14 @@
+
+
+
 .row{
-    background-color: rgba(200, 237, 241, 0.932);
+  background: #a1b5cb;
 }
 footer{
-    color: #05021421;
-    font-size: 24px;
-    font-weight: 300;
-    font-weight: bold;
-
+  color: #fefefe;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 2px -2px 5px #999 ;
 }

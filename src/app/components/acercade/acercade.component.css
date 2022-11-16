@@ -7,16 +7,28 @@ text-align: center;
 }
 #nombre{
     font-weight: bold;
+    font-size: 26px;
     margin-top: 40%;
     margin-left: 10px;
 }
-@media (min-width:576px) {
-    #fotoperfil{
+#full{
+  font-weight: bold;
+    font-size: 18px;
+
+    margin-left: 2px;
+
+}
+#desc{
+  font-weight: bold;
+    font-size: 18px;
+}
+@media (min-width:476px) {
+    #fotodeperfil{
     position: absolute;
     width: 15%;
-    border-radius: 100%;
+    border-radius: 180%;
     left: 5%;
-    top: 620px;
+    top: 520px;
 
     }
 }
