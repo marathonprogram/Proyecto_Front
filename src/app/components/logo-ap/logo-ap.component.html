@@ -2,8 +2,14 @@
     <div class="container">
         <div class="logo">
             <img src="../../../assets/imagenes/imagg.jpg" alt="">
+          </div>
+        </div>
+          <div class="butt">
             <button type="button" class="btn btn-primary" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+          </div>
+         <div class="butt">
             <button type="button" class="btn btn-primary" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+          </div>
 
     <div class="button" *ngIf="isLogged">
       <a class="bi-whatsapp" title="whatsapp" href="http://whatsapp.com/" ></a> -
@@ -13,8 +19,8 @@
       <a class="bi-github" title="github" href="http://github.com/" ></a> -
       <a class="bi-linkedin" title="linkedin" href="http://linkedin.com/" ></a>
     </div>
-    </div>
-  </div>
+
+
 
   <!--<i class="bi bi-whatsapp"></i>
   <i class="bi bi-facebook"></i>

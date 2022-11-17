@@ -1,6 +1,15 @@
 img {
   height: 200px;
   width: 1500px;
+
+}
+.butt{
+  /*float: left;*/
+  position: absolute;
+  top: 175px;
+  text-align: left;
+  font-size: 22px;
+
 }
 
 .button {

@@ -2,7 +2,7 @@
     padding: 20px ;
 }
 div {
-background-color: rgb(127, 187, 255);
+background-color: rgb(178, 218, 231);
 text-align: center;
 }
 #nombre{
@@ -28,7 +28,7 @@ text-align: center;
     width: 15%;
     border-radius: 180%;
     left: 5%;
-    top: 520px;
+    top: 680px;
 
     }
 }
