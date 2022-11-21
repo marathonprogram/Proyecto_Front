@@ -32,7 +32,7 @@ export class EditAcercaDeComponent implements OnInit {
 
   }
 
-  onUpdate() {
+  onUpdate(): void {
     const id = this.activatedRouter.snapshot.params['id'];
     this.personaService.update(id, this.persona).subscribe(
       data => {
@@ -48,7 +48,9 @@ export class EditAcercaDeComponent implements OnInit {
   }
 
   uploadImage($event: any) {
-     this.imageService.uploadImage($event)
+    const id = this.activatedRouter.snapshot.params['id'];
+    const name = "perfil_" + id;
+    this.imageService.uploadImage($event, name)
 
 
   }
